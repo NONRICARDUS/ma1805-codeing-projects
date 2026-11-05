@@ -20,11 +20,11 @@ function draw() {
   fill (0, 0, 0); //(r, g, b)
   circle (115, 195, 25);
 
-  // Mouth
+  //Mouth
   fill(0, 0, 0);
   ellipse(119, 265, 33, mouthHeight); 
 
-  // open and close the mouth 
+  //open and close the mouth 
   mouthHeight = mouthHeight + speed;
   if (mouthHeight> 30) {
     speed = -0.2;
