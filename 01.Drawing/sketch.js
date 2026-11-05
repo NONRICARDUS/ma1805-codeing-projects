@@ -16,7 +16,7 @@ function draw() {
   fill (0, 0, 0); //(r, g, b)
   circle(115, 195, 25);
 
-  // Mouth
+  //Mouth
   stroke(0, 0, 0);
   line(97, 270, 130, 270); 
 
